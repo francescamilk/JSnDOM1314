@@ -23,3 +23,20 @@ h1, h2, h3 {
 .green {
   color: green;
 }
+
+#popup {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  background: rgba(0, 0, 0, .8);
+}
+
+.popup-content {
+  background: #fff;
+  border-radius: 4px;
+  padding: 4rem;
+}
